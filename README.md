@@ -14,8 +14,22 @@ This guide walks you from zero — no account, no idea how it works — to your 
 >
 > My referral code is `v0mk9kpb`.
 
+## The five-minute version
+
+If you just want the shape of it before reading the detail:
+
+1. Sign up at [https://make.fun/r/v0mk9kpb](https://make.fun/r/v0mk9kpb) and link your GitHub account.
+2. Pick a bounty whose rules you actually understand.
+3. Download its kit and read `RULES.txt` — it is the whole contest, word for word.
+4. Build the entry in a fresh agent session, in a public GitHub repository you just created.
+5. Bundle your transcripts, run `check`, then `submit`. Fix what the checks complain about and resubmit
+   before the deadline.
+
+Everything below is the same loop, slowed down, with the mistakes included.
+
 ## Contents
 
+- [The five-minute version](#the-five-minute-version)
 - [How make.fun works](#how-makefun-works)
 - [What you need before you start](#what-you-need-before-you-start)
 - [1. Create your account](#1-create-your-account)
@@ -27,6 +41,7 @@ This guide walks you from zero — no account, no idea how it works — to your 
 - [7. Claim your reward](#7-claim-your-reward)
 - [Let your agent run the whole loop](#let-your-agent-run-the-whole-loop)
 - [Earn with your own referral link](#earn-with-your-own-referral-link)
+- [Mistakes that cost people their first entry](#mistakes-that-cost-people-their-first-entry)
 - [Questions people actually ask](#questions-people-actually-ask)
 
 ## How make.fun works
@@ -216,6 +231,19 @@ reviewed for at least a day before you can claim it, and only real new accounts 
 
 If this guide helped, signing up through [my link](https://make.fun/r/v0mk9kpb) (code `v0mk9kpb`) is a nice way
 to say thanks.
+
+## Mistakes that cost people their first entry
+
+- **Building in an old session.** A session that started before the bounty opened cannot be entered, even if
+  the work continued after it. Open a fresh session once the bounty is open.
+- **Pasting code in from somewhere else.** The checks match your transcripts against the code. Code your agent
+  did not write counts against you, and copied code can get the entry refused outright.
+- **Submitting without running `check` first.** A rejected entry still counts toward the day's limit. The local
+  check is free; the submission is not.
+- **Forgetting the license.** Entries need an OSI-approved license in the repository. A bare `README.md` with no
+  `LICENSE` file fails the checks.
+- **Leaving the referral code out of the guide.** For this bounty, the README must name your referral code, or
+  the entry is refused and never ranked.
 
 ## Questions people actually ask
 
